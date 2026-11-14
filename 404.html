@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not found · Brock Brickland</title><meta name="robots" content="noindex">
+<style>html{color-scheme:light}body{margin:0;min-height:100vh;display:grid;place-items:center;text-align:center;font:17px/1.5 system-ui,sans-serif;background:#fff8e7;color:#111;padding:24px}
+h1{font-size:clamp(38px,8vw,64px);font-weight:800;margin:0 0 10px;letter-spacing:-.04em;line-height:1}h1 span{display:inline-block;padding:0 .16em;background:#ffd500;border:3px solid #111;border-radius:.18em;box-shadow:5px 5px 0 #111;transform:rotate(-2deg)}
+p{margin:0 0 24px}a{display:inline-block;margin:6px;padding:10px 18px;border:3px solid #111;border-radius:12px;background:#e3000b;color:#fff;font-weight:800;text-decoration:none;box-shadow:3px 3px 0 #111}a.ghost{background:#fff;color:#111}a:active{transform:translate(3px,3px);box-shadow:none}</style></head>
+<body><main><h1>That brick is <span>missing.</span></h1><p>There's no page at this address.</p>
+<a id="home" href="/">Back to the collection</a><a id="sets" class="ghost" href="/#/sets">Sets</a><a id="figs" class="ghost" href="/#/minifigs">Minifigs</a></main>
+<script>
+// On a project page (user.github.io/repo/) the site lives one folder down; on a custom domain it lives at the root.
+var root = /\.github\.io$/.test(location.hostname) ? '/' + location.pathname.split('/')[1] + '/' : '/';
+document.getElementById('home').href = root;
+document.getElementById('sets').href = root + '#/sets';
+document.getElementById('figs').href = root + '#/minifigs';
+</script></body></html>

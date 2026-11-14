@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="No image available">
+  <rect width="240" height="240" rx="18" fill="#fff8e7"/>
+  <g stroke="#111" stroke-width="5" stroke-linejoin="round" opacity=".32">
+    <path d="M64 108V90a6 6 0 0 1 6-6h30a6 6 0 0 1 6 6v18M134 108V90a6 6 0 0 1 6-6h30a6 6 0 0 1 6 6v18" fill="#ffd500"/>
+    <rect x="46" y="106" width="148" height="76" rx="12" fill="#ffd500"/>
+  </g>
+  <text x="120" y="214" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="600" fill="#5d574a">No picture yet</text>
+</svg>
